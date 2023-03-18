@@ -64,7 +64,7 @@ if (window.location.hash) {
         yield.textContent = language.es.yield;
         harvest.textContent = language.es.harvest;
         manualHarvest.textContent = language.es.manualHarvest;
-        wineMaking.textContent = language.es.winemaking;
+        wineMaking.textContent = language.es.wineMaking;
         description.textContent = language.es.description;
         charac.textContent = language.es.charac;
         color.textContent = language.es.color;
@@ -85,7 +85,7 @@ if (window.location.hash) {
         yield.textContent = language.en.yield;
         harvest.textContent = language.en.harvest;
         manualHarvest.textContent = language.en.manualHarvest;
-        wineMaking.textContent = language.en.winemaking;
+        wineMaking.textContent = language.en.wineMaking;
         description.textContent = language.en.description;
         charac.textContent = language.en.charac;
         color.textContent = language.en.color;
