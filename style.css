@@ -1,0 +1,371 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* PRESET Colori e fonts*/
+
+:root{
+    --textsVioletDark: #18122B;
+    /* --paletteBody: #635985; */
+    --paletteBody: #393053;
+    --palettePage: #443C68;
+    --paletteFooter: #393053;
+    --paletteHeader: #18122B;
+}
+
+.texts-custom{
+    color: var(--textsVioletDark);
+}
+
+.bg-body-custom{
+    /* background-color: var(--paletteBody); */
+    background-color: antiquewhite;
+}
+
+.bg-page-custom{
+    background-color: var(--palettePage);
+}
+
+.bg-header-custom{
+    background-color: var(--paletteHeader);
+}
+
+.bg-footer-custom{
+    background-color: var(--paletteFooter);
+}
+
+.body-custom{
+    background-color: var(--paletteBody);
+}
+/* IMMAGINE HEADER */
+
+.logo_custom{
+    width: 25vw;
+    margin-left: 32vw;
+    
+}
+
+.layer1-custom{
+    position: absolute;
+    z-index: 1;
+}
+
+.layer2-custom{
+    position: relative;
+    top: 22vh;
+    z-index: 99;
+}
+
+.img_carousel_custom{
+    width: 100%;
+    height: 80vh;
+}
+
+.container-custom{
+    min-width: 90vw;
+}
+
+.flag-nav-custom{
+    /* margin-right: 8px; */
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.bg-flag-custom{
+    background-color: rgba(255, 255, 255, 0.363); 
+    backdrop-filter: blur(10px); 
+}
+
+.dropdown-menu{
+    --bs-dropdown-min-width: 2rem !important;
+}
+
+
+
+/* SEZIONE SOTTO HEADER */
+
+h2{
+    color: darkred;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 5px;
+    font-size: 3rem;
+}
+
+.h3-custom{
+    color: darkred;
+    font-size: 4rem;
+    position: relative;
+    top: 35%;
+    right: 20%;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+
+.img_casolare{
+    width: 80%;
+}
+
+.header_custom{
+    height: 30vh;
+    background: linear-gradient(to bottom, #18122B 95%, #e9e8e8ef);
+    /* background-color: var(--paletteHeader); */
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    position: sticky top;
+}
+
+
+.section-custom{
+    height: 60vh;
+    background: linear-gradient(to bottom, #e9e8e8dd, transparent, transparent, antiquewhite), url(/public/media/vigneto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+
+.img-section-custom{
+    width: 50%;
+    height: 40vh;
+    border: 2px solid white ;
+    border-radius: 40%;
+    border: 2px solid darkred;
+}
+
+.img-card1-custom {
+    background-image: url(/public/media/1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 28vw;
+    height: 28vw;
+    border: 2px solid darkred;
+    padding: 10px;
+}
+
+.img-card2-custom {
+    background-image: url(/public/media/casolare.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 28vw;
+    height: 28vw;
+    border: 2px solid darkred;
+    padding: 10px;
+}
+
+.img-card3-custom {
+    background-image: url(/public/media/bottiglia-singola.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 28vw;
+    height: 28vw;
+    border: 2px solid darkred;
+    padding: 10px;
+}
+
+.ul-custom{
+    list-style: none;
+}
+
+/* RECENSIONI */
+
+.img_recensione_custom{
+    /* height: 35vh; */
+    width: 100%;
+    border-radius: 17px;
+    /* margin-bottom: 25%; */
+}
+
+.title_review{
+    height: 10vh;
+}
+
+.h3_review{
+    color: darkred;
+    font-size: 8vh;
+}
+
+.review_custom{
+    height: 100vh;
+}
+
+.fontReview{
+    font-style: italic;
+}
+
+.faCustom{
+    font-size: 1.5vh;
+}
+
+.w3-animate-fading{
+    animation: fading 5s;
+}
+
+/* FOOTER */
+
+.link_footer{
+    text-decoration: none;
+}
+
+.bg-footer-custom{
+    background-color: var(--paletteHeader);
+}
+
+.footer_custom{
+    height: 14vh;
+}
+
+.bgIconCustom{
+    color: whitesmoke;
+}
+
+/* CARD */
+
+.card {
+    box-sizing: border-box;
+    min-height: 90%;
+    height: 100%;
+    width: 60%;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    /* box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22); */
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+}
+
+
+/* MEDIAQUERY */
+
+@media screen and (max-width: 700px) {
+    
+    *{
+        overflow-x: hidden;
+    }
+    
+    .h1_header{
+        font-size: 3vh;
+        width: 70vw;
+        position: absolute;
+        left: 18%;
+        top: 1%;
+    }
+    
+    .logo_custom{
+        width: 70%;
+        margin-left: -3vw;
+    }
+    
+    .section-custom{
+        margin-top: 0px;
+    }
+    
+    .layer1-custom{
+        position: absolute;
+        z-index: 1;
+    }
+
+    /* Messa a 40.5vh altrimenti fa lo scroll dell'header */
+    /* Diminuita a 32.5 per nuove dimensioni logo, niente problemi di scroll. -m */
+    .header_custom{
+        height: 32.5vh; 
+    }
+    
+    .h3-custom{
+        font-size: 2rem;
+        margin-top: 60px;
+    }
+    
+    .img_header{
+        width: 170vw;
+        height: 60%;
+        border-radius: 0px;
+    }
+    
+    /* .dropdown{
+      right: 65%;
+    }
+     */
+    .header_index{
+        max-height: 35vh;
+    }
+    
+    .title_review{
+        height: 18vh;
+    }
+    
+    .review_custom{
+        height: 80vh;
+    }
+    
+    .img-card1-custom {
+        background-image: url(/public/media/1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        width: 68vw;
+        height: 68vw;
+        border: 2px solid darkred;
+        padding: 10px;
+    }
+    
+    .img-card2-custom {
+        background-image: url(/public/media/casolare.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        width: 68vw;
+        height: 68vw;
+        border: 2px solid darkred;
+        padding: 10px;
+    }
+    
+    .img-card3-custom {
+        background-image: url(/public/media/bottiglia-singola.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        width: 68vw;
+        height: 68vw;
+        border: 2px solid darkred;
+        padding: 10px;
+    }
+    
+    .thirdContainerCustom{
+        min-height: 80vh;
+    }
+    
+    .img_recensione_custom{
+        width: 60vw;
+    }
+    
+    .review_custom{
+        text-align: center;
+    }
+    
+    .divReviewCustom{
+        margin: 10px;
+        padding-bottom: 2vh;
+    }
+    
+    .footer_custom{
+        min-height: 30vh;
+    }
+    
+    .card{
+        min-height: 100%;
+    }
+}
