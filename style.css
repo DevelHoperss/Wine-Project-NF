@@ -42,7 +42,6 @@
 .logo_custom{
     width: 25vw;
     margin-left: 32vw;
-    
 }
 
 .layer1-custom{
@@ -118,7 +117,7 @@ h2{
 
 .section-custom{
     height: 60vh;
-    background: linear-gradient(to bottom, #e9e8e8dd, transparent, transparent, antiquewhite), url(/public/media/vigneto.jpg);
+    background: linear-gradient(to bottom, #e9e8e8dd, transparent, transparent, antiquewhite), url(media/vigneto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -134,7 +133,7 @@ h2{
 }
 
 .img-card1-custom {
-    background-image: url(/public/media/1.jpg);
+    background-image: url(media/1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -146,7 +145,7 @@ h2{
 }
 
 .img-card2-custom {
-    background-image: url(/public/media/casolare.jpg);
+    background-image: url(media/casolare.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50%;
@@ -157,7 +156,7 @@ h2{
 }
 
 .img-card3-custom {
-    background-image: url(/public/media/bottiglia-singola.jpg);
+    background-image: url(media/bottiglia-singola.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -190,9 +189,9 @@ h2{
     font-size: 8vh;
 }
 
-.review_custom{
-    height: 100vh;
-}
+/* .review_custom{
+    height: 150vh;
+} */
 
 .fontReview{
     font-style: italic;
@@ -264,15 +263,18 @@ h2{
     .logo_custom{
         width: 70%;
         margin-left: -3vw;
+        margin-top: 0;
     }
     
     .section-custom{
         margin-top: 0px;
+        text-align: center;
     }
     
     .layer1-custom{
         position: absolute;
         z-index: 1;
+        margin-top: 60px;
     }
 
     /* Messa a 40.5vh altrimenti fa lo scroll dell'header */
@@ -284,6 +286,7 @@ h2{
     .h3-custom{
         font-size: 2rem;
         margin-top: 60px;
+      
     }
     
     .img_header{
@@ -305,11 +308,11 @@ h2{
     }
     
     .review_custom{
-        height: 80vh;
+        height: 335.5vh;
     }
     
     .img-card1-custom {
-        background-image: url(/public/media/1.jpg);
+        background-image: url(media/1.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -321,7 +324,7 @@ h2{
     }
     
     .img-card2-custom {
-        background-image: url(/public/media/casolare.jpg);
+        background-image: url(media/casolare.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -333,7 +336,7 @@ h2{
     }
     
     .img-card3-custom {
-        background-image: url(/public/media/bottiglia-singola.jpg);
+        background-image: url(media/bottiglia-singola.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -367,5 +370,9 @@ h2{
     
     .card{
         min-height: 100%;
+    }
+
+    .h3_review{
+        font-size: 6vh;
     }
 }
